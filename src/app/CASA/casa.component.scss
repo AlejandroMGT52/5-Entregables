@@ -1,0 +1,60 @@
+/* Estilos generales de la página */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #282c34; /* Fondo oscuro */
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Estilos del título */
+h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #185d70; /* Azul destacado */
+  text-align: center;
+  margin-bottom: 40px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Contenedor de botones */
+.button-container {
+  display: flex;
+  background-color: rgba(137, 199, 143, 0.1); /* Fondo semi-transparente con patrón */
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos de los botones */
+button {
+  padding: 20px 30px;
+  background-color: #61dafb; /* Azul primario */
+  color: white;
+  border: 2px solid #61dafb; 
+  border-radius: 30px; /* Botón redondeado */
+  cursor: pointer;
+  font-size: 18px; 
+  font-weight: bold; 
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: #21a1f1; /* Azul claro de hover */
+  border-color: #21a1f1;
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+button:active {
+  background-color: #1f7ec7; /* Azul oscuro al hacer clic */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
